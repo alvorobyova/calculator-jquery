@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+font-family: "MontserratSemibold";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: "MontserratSemibold", sans-serif;
+
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.calculator {
+    width: 250px;
+    margin: 30px auto 0;
+    text-align: center;
+    box-shadow: 0 0 10px #000000;
+}
+
+.calculator__form {
+    height: 100%;
+    padding: 20px;
+}
+
+.btn {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.btn.btn-zero {
+    width: 98px;
+    border-radius: 25px;
+}
+
+.btn.number, .btn.comma {
+    background-color: #333333;
+    color: white;
+}
+.btn.number:hover, .btn.comma:hover {
+    background-color: #626161;
+}
+
+.btn.active {
+
+}
+
+input {
+    font-size: 49px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.calculator__key:hover {
+    /*background-color: #80d8f1;*/
+}
+
+.calculator__key::-moz-focus-inner {
+    border: none
+}
+
+.btn.gray {
+    background-color: #A5A5A5;
+}
+.btn.gray:hover {
+    background-color: #d5d4d4;
+}
+
+.btn.actions {
+    background-color: #ff9900;
+    color: white;
+    font-size: 20px;
+}
+
+.btn.actions:hover {
+    color: #ff9900;
+    background-color: white;
+}
+#multiply {
+    padding-top: 10px;
+}
